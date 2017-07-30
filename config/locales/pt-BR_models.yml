@@ -1,0 +1,19 @@
+pt-BR:
+  activerecord:
+    models:
+      user: "Usuário"
+      page: "Página"
+    attributes:
+      user:
+        id: "Código"
+        name: "Nome"
+        email: "Email"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+      page:
+        id: "Código"
+        name: "Página"
+        url: "URL"
+        visited_at: "Visitado em"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
