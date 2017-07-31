@@ -1,24 +1,42 @@
-# README
+# User Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**User Tracker** is a Ruby on Rails application used to analise user activity.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+To run the application locally, you must use Rails 5.0.
 
-* System dependencies
+Start cloning the git repository:
 
-* Configuration
+```
+git clone https://github.com/FelipeAlbertoT/rastreamentodeusuario.git
+```
 
-* Database creation
+Install required gems from application `Gemfile`:
 
-* Database initialization
+```
+bundle install
+```
 
-* How to run the test suite
+Run the migrations:
 
-* Services (job queues, cache servers, search engines, etc.)
+```ruby
+rake db:create
+rake db:migrate
+```
 
-* Deployment instructions
+Start rails server:
 
-* ...
+```ruby
+rails s
+```
+
+Access the application:
+
+```
+http://localhost:3000
+```
+
+## Also see
+
+* [https://github.com/FelipeAlbertoT/portal-rd](https://github.com/FelipeAlbertoT/portal-rd)
